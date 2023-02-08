@@ -7,7 +7,7 @@ conn = psycopg2.connect(
     host="localhost",
     database="mydatabase",
     user="postgres",
-    password="secretpassword"
+    password="mysecretpassword"
 )
 
 @app.route('/')
