@@ -27,7 +27,7 @@ def login():
         if user:
             return redirect('/welcome')
         else:
-            return redirect('/')
+            return render_template('login.html', message="Login Failed")
 
     return render_template('login.html')
 
